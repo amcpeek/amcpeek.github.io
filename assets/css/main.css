@@ -4897,7 +4897,9 @@ input, select, textarea {
 				-moz-object-fit: cover;
 				-webkit-object-fit: cover;
 				-ms-object-fit: cover;
-				object-fit: cover;
+				object-fit: scale-down;
+				/* was cover */
+				/* object-fit: cover; */
 				-moz-object-position: center;
 				-webkit-object-position: center;
 				-ms-object-position: center;
@@ -4909,6 +4911,7 @@ input, select, textarea {
 				width: 100%;
 				height: 100%;
 				border-radius: 0;
+				background-color: white;
 			}
 
 		@media screen and (max-width: 1680px) {
